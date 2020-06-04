@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes input-animate {
+  0% {
+    width: 51%;
+    background-color: red;
+  }
+  40% {
+    width: 52%;
+    background-color: yellow;
+  }
+  60% {
+    width: 52%;
+    background-color: yellow;
+  }
+  80% {
+    width: 51%;
+    background-color: yellow;
+  }
+  100% {
+    width: 50%;
+    background-color: red;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background-color: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  margin: 15px;
+}
+
+div.buttons-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.form-inputs-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Animar Botões */
+button.animation {
+  border: none;
+  outline: none;
+  color: #ffff;
+  padding: 20px;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 24px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #fff;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+button.animation:active {
+  box-shadow: 0 5px rgb(138, 137, 137);
+  transform: translateY(4px);
+}
+
+/* Efeito Botão Hover Right */
+button.animation-effect-1 {
+  background-color: #38348a;
+}
+
+button.animation-effect-1:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  border-color: #fff;
+  transition: all 2s ease;
+}
+
+button.animation-effect-1:hover:before {
+  width: 100%;
+}
+
+/* Efeito Botão Hover Top Down */
+button.animation-effect-2 {
+  background-color: #772150;
+}
+
+button.animation-effect-2:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  border-color: #fff;
+  transition: all 2s ease;
+}
+
+button.animation-effect-2:hover:before {
+  height: 64px;
+}
+
+/* Efeito Botão Hoverflow Bottom Top */
+button.animation-effect-3 {
+  position: relative;
+  background-color: #4caf50;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+button.animation-effect-3:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #009c3d;
+  box-shadow: inset 0 0 0 3px #009c3d;
+}
+
+button.animation-effect-3:after {
+  content: "";
+  background: #90ee90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+button.animation-effect-3:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+/* Efeito Botão Hover Bouce */
+button.animation-effect-4 {
+  position: relative;
+  background-color: #f18f01;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+button.animation-effect-4:hover {
+  box-shadow: inset 0 0 0 3px #f27f04;
+  animation: bounce 1s;
+}
+
+button.animation-effect-4:after {
+  content: "";
+  background: #eea434;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+button.animation-effect-4:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+/* Efeito Botão Right Context */
+button.animation-effect-5 {
+  background: #bb3a34;
+}
+
+button.animation-effect-5:active {
+  box-shadow: 0 0px rgb(0, 0, 0);
+  transform: translateY(1px);
+}
+
+button.animation-effect-5:hover {
+  transform: skew(-10deg);
+}
+
+button.animation-effect-5 span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.animation-effect-5:active span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button.animation-effect-5:active span {
+  padding-right: 25px;
+}
+
+button.animation-effect-5:active span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Efeito Botão 3D */
+button.animation-effect-6 {
+  background: #376693;
+  transform-style: preserve-3d;
+}
+
+button.animation-effect-6:active {
+  box-shadow: 0 0px rgb(0, 0, 0);
+  transform: translateY(1px);
+}
+
+button.animation-effect-6:after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background: #3a9999;
+  border-radius: 10px;
+  box-sizing: border-box;
+  content: "Efeito 6";
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+
+button.animation-effect-6:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
+
+button.animation-effect-6 span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.animation-effect-6:active span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button.animation-effect-6:active span {
+  padding-right: 15px;
+}
+
+button.animation-effect-6:active span:after {
+  opacity: 1;
+  right: 0;
+}
+
+input,
+button,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+  margin: 5px;
+}
+
+form input {
+  width: 50%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+
+form textarea {
+  resize: vertical;
+  width: 50%;
+  min-height: 140px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 24px;
+}
+
+/* Efeito Input Hoverflow */
+input.animation-effect-3 {
+  background-color: #ffff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+input.animation-effect-3:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #009c3d;
+  box-shadow: inset 0 0 0 3px #009c3d;
+}
+
+input.animation-effect-3:after {
+  background: #90ee90;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+input.animation-effect-3:active:after {
+  opacity: 1;
+  transition: 0s;
+}
+
+/* Efeito Input Hover Bouce */
+input.animation-effect-4 {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+input.animation-effect-4:hover {
+  box-shadow: inset 0 0 0 3px #ffff;
+  animation: bounce 1s;
+}
+
+input.animation-effect-4:focus {
+  color: #000000;
+  background-color: #d8e5e6;
+}
+
+/* Efeito Input Right Context */
+input.animation-effect-5 {
+  background: #ffff;
+}
+
+input.animation-effect-5:active {
+  box-shadow: 0 0px rgb(0, 0, 0);
+  transform: translateY(1px);
+}
+
+input.animation-effect-5:hover {
+  background: #bb3a34;
+  transform: skew(-10deg);
+}
+
+input.animation-effect-5:focus {
+  background: #bb3a34;
+  color: #ffff;
+}
+
+input.animation-effect-5:hover::placeholder,
+input.animation-effect-5:focus::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffff;
+  opacity: 1; /* Firefox */
+}
+
+input.animation-effect-5:hover:-ms-input-placeholder,
+input.animation-effect-5:focus:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000000;
+}
+
+input.animation-effect-5:hover::-ms-input-placeholder
+  input.animation-effect-5:focus::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffff;
+}
+
+input.animation-effect-6:hover {
+  color: #000000;
+  background-color: red;
+  animation-name: input-animate;
+  animation-duration: 4s;
+}
