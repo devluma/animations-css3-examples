@@ -14,7 +14,7 @@ A aplicação tem como objetivo estudar HTML5 e CSS3, para aprimorar meus conhec
 
 - ✔️ Criar efeitos em botões do HTML5 / [W3Schools](https://www.w3schools.com/howto/howto_css_animate_buttons.asp)
 - ✔️ Criar efeitos em campos de um formulário do HTML5 como tipo (Text, Email, Number e Password)
-- ❌ Criar efeitos em campos do tipo (Textarea) de um formulário do HTML5.
+- ✔️ Criar efeitos em campos do tipo (Textarea) de um formulário do HTML5.
 
 
 # 🚢 Descrição do Projeto:
@@ -74,6 +74,10 @@ Animações em campos de formulários são muito uteis no dia-dia do desenvolvim
   
 </table>
 
+# 🔌 Link(s) da(s) Bibliografia(s) Utilizada(s)
+
+- [Animações com CSS3 do Ricardo Sanches](https://www.youtube.com/watch?v=_w57bWIPZKE/)
+
 # 👪 Contribuições
 
 😉 Contribuições são bem-vindas! <br />
@@ -106,10 +110,10 @@ Animações em campos de formulários são muito uteis no dia-dia do desenvolvim
 ![Build Status][plataform-image]
 [![Downloads Stats][version-download-image]][version-download]
 
-###### <div align="right">[Voltar](#projeto-be-the-hero) ↺</div>
+###### <div align="right">[Voltar](#projeto-animações-em-css3) ↺</div>
 
-[version-image]: https://img.shields.io/badge/version-0.1.1-brightgreen?style=flat-square
+[version-image]: https://img.shields.io/badge/version-0.1.2-brightgreen?style=flat-square
 [version-url]: https://github.com/devluma/animations-css3-examples/releases/
-[version-download-image]: https://img.shields.io/badge/download-0.1.1-blue?style=flat-square
+[version-download-image]: https://img.shields.io/badge/download-0.1.2-blue?style=flat-square
 [version-download]: https://github.com/devluma/animations-css3-examples/archive/master.zip
 [plataform-image]: https://img.shields.io/badge/browsers-Chrome%20%7C%20Firefox%20%7C%20MicrosoftEdge-lightgrey
