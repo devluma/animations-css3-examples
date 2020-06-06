@@ -28,36 +28,63 @@
         <span>Efeito 6</span>
       </button>
     </div>
-
-    <div class="form-inputs-container">
+    <div class="form-container">
       <h1>Animação em formulários</h1>
-      <div className="content">
-        <form>
-          <div className="input-group">
-            <input
-              type="text"
-              class="animation animation-effect-3"
-              placeholder="Texto"
-              required="required"
-            />
-            <input
-              type="email"
-              class="animation animation-effect-4"
-              placeholder="E-mail"
-              required="required"
-            />
-            <input
-              type="number"
-              class="animation animation-effect-5"
-              placeholder="Número(s)"
-              required="required"
-            />
-            <input
-              type="password"
-              class="animation animation-effect-6"
-              placeholder="Senha"
-              required="required"
-            />
+      <div className="box-container">
+        <form name="form-example" autocomplete="off">
+          <div className="input-group box-content">
+            <fieldset>
+              <legend>Inputs:</legend>
+              <input
+                type="text"
+                name="text"
+                form="form-example"
+                class="animation animation-effect-3"
+                placeholder="Texto"
+                autocomplete="off"
+                required="required"
+              />
+              <input
+                type="email"
+                name="email"
+                form="form-example"
+                class="animation animation-effect-4"
+                placeholder="E-mail"
+                autocomplete="off"
+                required="required"
+              />
+              <input
+                type="number"
+                name="number"
+                form="form-example"
+                class="animation animation-effect-5"
+                placeholder="Número(s)"
+                autocomplete="off"
+                required="required"
+              />
+              <input
+                type="password"
+                name="password"
+                form="form-example"
+                class="animation animation-effect-6"
+                placeholder="Senha"
+                autocomplete="off"
+                required="required"
+              />
+            </fieldset>
+          </div>
+          <div className="input-group box-content">
+            <fieldset>
+              <legend>Textarea:</legend>
+              <textarea
+                name="comment"
+                form="form-example"
+                class="animation animation-effect-3"
+                placeholder="Digite algum comentário..."
+                autocomplete="off"
+                required="required"
+              ></textarea>
+            </fieldset>
           </div>
         </form>
       </div>
