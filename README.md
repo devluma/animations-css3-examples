@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/devluma/animations-css3-examples/releases">
-    <img alt="Release" src="https://img.shields.io/github/v/release/devluma/animations-css3-examples">
+    <img alt="Release" src="https://img.shields.io/github/v/release/devluma/animations-css3-examples?include_prereleases">
   </a>
   <a href="https://github.com/devluma/animations-css3-examples/commits/master">
     <img alt="Last commit date" src="https://img.shields.io/github/last-commit/devluma/animations-css3-examples">
