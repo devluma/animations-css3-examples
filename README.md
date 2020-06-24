@@ -2,6 +2,52 @@
     <img alt="CSS3 Animations" src="github/logo-css3-animations.png" width="200px" />
 </h1>
 
+<p align="center">
+  <img alt="Plataform" src="https://img.shields.io/badge/plataform-WEB-lightgrey">
+  <img alt="License" src="https://img.shields.io/github/license/devluma/animations-css3-examples">
+  <img alt="Languagues" src="https://img.shields.io/github/languages/count/devluma/animations-css3-examples">
+  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/devluma/animations-css3-examples">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devluma/animations-css3-examples">
+</p>
+
+<p align="center">
+  <a href="https://github.com/devluma/animations-css3-examples/releases">
+    <img alt="Release" src="https://img.shields.io/github/v/release/devluma/animations-css3-examples">
+  </a>
+  <a href="https://github.com/devluma/animations-css3-examples/commits/master">
+    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/devluma/animations-css3-examples">
+  </a>
+  <a href="https://github.com/devluma/animations-css3-examples/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/devluma/animations-css3-examples">
+  </a>
+  <a href="https://github.com/devluma/animations-css3-examples/archive/master.zip">
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/devluma/animations-css3-examples/total">
+  </a>
+</p>
+
+<p align="center">
+  <img alt="Made by Devluma" src="https://img.shields.io/badge/made%20by-Devluma-informational">
+  <a href="https://github.com/devluma" target="_blank" >
+    <img alt="Github - Devluma" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
+  </a>
+  <a href="https://www.linkedin.com/in/devluma/" target="_blank" >
+    <img alt="Linkedin - Devluma" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>
+  <a href="mailto:luiz.schmitt@sysdomotic.com.br" target="_blank" >
+    <img alt="Email - Devluma" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#desafio-proposto">Desafio</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#além-do-desafio">Implementações</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-descrição-do-projeto">Descrição do Projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#information_source-como-usar">Como Usar</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-contribuições">Contribuições</a>&nbsp;&nbsp;
+</p>
+
+<br />
+
 # Projeto `Animações em CSS3`
 
 A aplicação tem como objetivo estudar HTML5 e CSS3, para aprimorar meus conhecimento no desenvolvimento Front-end. A Abordagem utilizada nos exemplos foi resumida do vídeo criado pelo [Ricardo Sanches](https://www.youtube.com/watch?v=_w57bWIPZKE).
@@ -57,6 +103,23 @@ Animações em campos de formulários são muito uteis no dia-dia do desenvolvim
   </tbody>
 </table>
 
+### :information_source: Como Usar
+
+Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) instalado no seu computador.
+
+#### 💻 Executar na Linha de Comando
+
+```bash
+# Clone o repositório no diretório desejado
+$ git clone https://github.com/devluma/animations-css3-examples.git
+
+# Vá para o diretório onde o projeto foi clonado
+$ cd animations-css3-examples/
+
+# Abrir o projeto no VS Code
+$ code .
+```
+
 # 🚀 Tecnologia(s) Utilizada(s) no Projeto
 
 <table>
@@ -78,18 +141,22 @@ Animações em campos de formulários são muito uteis no dia-dia do desenvolvim
 
 - [Animações com CSS3 do Ricardo Sanches](https://www.youtube.com/watch?v=_w57bWIPZKE/)
 
-# 👪 Contribuições
+# 🤝 Contribuições
 
-😉 Contribuições são bem-vindas! <br />
+😉 Contribuições são <b>Bem-Vindas</b>! <br />
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
+
+### 🤘 Mostre o seu Apoio 💞
+
+Dê uma ⭐️ se este projeto te ajudou de alguma forma 😉🎅
 
 # 📜 Direitos e Licença
 
 ✌ Este projeto está sobre [Licença MIT](https://choosealicense.com/licenses/mit/) e foi criado por [Luiz Marcelo Schmitt](https://www.linkedin.com/in/devluma/)
 
-# 🙌 Apoiadores
+# 🙌 Apoio
 
-<div align="left">
+<p align="left">
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.sysdomotic.com.br/" target="_blank">
@@ -102,18 +169,10 @@ Animações em campos de formulários são muito uteis no dia-dia do desenvolvim
       <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="86px" />
     </a>
   </span>
-</div>
+</p>
 
-# 🔋 Status do Projeto
+---
 
-[![App Version][version-image]][version-url]
-![Build Status][plataform-image]
-[![Downloads Stats][version-download-image]][version-download]
+Desenvolvido por [Devluma](https://github.com/devluma) :blue_heart:
 
-###### <div align="right">[Voltar](#projeto-animações-em-css3) ↺</div>
-
-[version-image]: https://img.shields.io/badge/version-0.1.2-brightgreen?style=flat-square
-[version-url]: https://github.com/devluma/animations-css3-examples/releases/
-[version-download-image]: https://img.shields.io/badge/download-0.1.2-blue?style=flat-square
-[version-download]: https://github.com/devluma/animations-css3-examples/archive/master.zip
-[plataform-image]: https://img.shields.io/badge/browsers-Chrome%20%7C%20Firefox%20%7C%20MicrosoftEdge-lightgrey
+###### <div align="right">[Voltar](#projeto-be-the-hero) ↺</div>
