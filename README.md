@@ -160,19 +160,19 @@ Dê uma ⭐️ se este projeto te ajudou de alguma forma 😉🎅
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.sysdomotic.com.br/" target="_blank">
-      <img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="86px" />
+      <img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="96px" />
     </a>
   </span>
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.maizzon.com.br/" target="_blank"  margin="15px">
-      <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="86px" />
+      <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="96px" />
     </a>
   </span>
 </p>
 
 ---
 
-Desenvolvido por [Devluma](https://github.com/devluma) :blue_heart:
+Desenvolvido por [Devluma](https://devluma.github.io/about-me) :blue_heart:
 
 ###### <div align="right">[Voltar](#projeto-be-the-hero) ↺</div>
